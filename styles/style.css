@@ -1,0 +1,193 @@
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+/*shared style*/
+.display-flex{
+    display: flex;
+}
+.header{
+    max-width: 1160px;
+    margin:0 auto;
+}
+.btn{
+    height: 50px;
+    width:197px;
+    border-radius: 12px;
+    font-size:1.25rem;
+    color: #FFFFFF;
+}
+
+/*navigation-style*/
+.navber{
+    justify-content: space-around;
+    align-items: center;
+}
+.navber-first{
+    gap:11px;
+    align-items: center;
+}
+.nav-img{
+    height: 64px;
+    width:64px;
+}
+.nav-title{
+    font-size:2rem;
+    font-weight: bold;
+}
+.nav-list{
+    list-style: none;
+    margin-right: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size:1.25rem;
+    font-weight:500;
+}
+.nav-btn{
+    background-color:orange;
+    border:1px solid orange;
+    font-weight:500;
+}
+/*Banner-style*/
+.banner-container{
+    max-width: 1050px;
+    margin:0 auto;
+    align-items: center;
+    gap:50px;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.banner-para{
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+.banner-btn{
+    background-color: black;
+    border: 1px solid black;
+}
+.banner-img{
+    height: 575px;
+    width:auto;
+}
+/*main-syle*/
+/*section1-sttyle*/
+.main{
+
+}
+.sec-1, .sec-2{
+    background-image:url(../assets/bg.png);
+    background-size: 1440px 880px;
+}
+.curriculum-title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.curriculum-container{
+    max-width: 1050px;
+    margin:0 auto;
+}
+.curriculum-box{
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    height: 380px;
+    width:365px;
+    padding: 52px 50px;
+    padding-bottom:0px;
+    text-align: center;
+}
+#box-1{
+    border-image: linear-gradient(to bottom, #DEF5FF, #FFFFFF )
+    background-color: #DEF5FF;
+}
+#box-2{
+    background-color: #FFF4DC;
+}
+#box-3{
+    background-color: #F2E8FF;
+}
+
+.curriculum-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #202020;
+}
+.curriculum-des{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #808080;
+}
+.icon{
+    max-width: 1050px;
+    margin:0 auto;
+    height:60px;
+    width: 60px;
+    margin-top:80px ;
+    gap:20px
+}
+/*Story-style*/
+.stories{
+    max-width: 1050px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);  
+}
+#s-1{
+    grid-row:span 2;
+}
+.story{
+    border: 1px solid white;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.story-btn{
+    height: 40px;
+    width:170px;
+    border-radius:45px ;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color:#FFFFFF;
+    margin-top:-100px;
+    margin-left:50px;
+}
+.b-1{
+    background-color:#5D58F0;
+    border:1px solid #5D58F0;
+}
+.b-2{
+    background-color:#95B226;
+    border:1px solid #95B226;
+}
+#sn-1{
+    font-size: 1.5rem;
+    font-weight:bold ;
+    padding-left: 2px;
+}
+#sd-1{
+    font-size: 0.9rem;
+    font-weight:500;
+    color: #666666;
+}
+.story-name{
+    font-size: 0.9rem;
+    font-weight:bold ;
+    text-align: left;
+    padding: 0px 38px;
+    margin-top: 10px;
+}
+/*footer-style*/
+.footer-container{
+    background-color:#01ACFD ;
+    height: 520px;
+    width: 1450px;
+    max-width: 1160px;
+    margin:0 auto;
+}
