@@ -52,6 +52,9 @@
     border:1px solid orange;
     font-weight:500;
 }
+.mobile-only-icon{
+    display: none;
+}
 /*Banner-style*/
 .banner-container{
     max-width: 1050px;
@@ -248,4 +251,48 @@
 .foot-abt-k{
     list-style: none;
     margin-left: 25px;
+}
+@media screen and (max-width:576px){
+    .nav-title,
+    .navber-sec,
+    .navber-third,
+    .icon{
+        display:none;
+    }
+    .nav-img{
+        position: absolute;
+        left: 20px;
+        top:20px;
+    }
+    .banner-container{
+        flex-direction: column; 
+        align-items: center;
+        margin-top:150px;
+    }
+    .banner-img{
+        order: 1;
+    }
+    .banner-des{
+        order:2;
+        position: center;
+        padding:0 50px;
+    }
+    .curriculums{
+        flex-direction: column;
+        align-items: center;
+    }
+    #s-1{
+        display:none;
+    }
+    .stories {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+        gap: 20px; 
+    }
+    .footer-description{
+        flex-direction: column;
+    }
+    ..footer-container{
+        background-color:#01ACFD ;
+        height: 700px;
+
 }
