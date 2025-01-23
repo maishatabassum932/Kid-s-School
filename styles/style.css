@@ -288,11 +288,12 @@
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
         gap: 20px; 
     }
-    .footer-description{
-        flex-direction: column;
+    .footer-description {
+        flex-direction: column; 
     }
-    ..footer-container{
-        background-color:#01ACFD ;
-        height: 700px;
 
+    .footer-container {
+        height: auto; 
+        padding-bottom: 20px; 
+    }
 }
