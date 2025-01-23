@@ -81,9 +81,14 @@
 .main{
 
 }
-.sec-1, .sec-2{
+.sec-1, 
+.sec-2{
     background-image:url(../assets/bg.png);
     background-size: 1440px 880px;
+}
+.curriculums {
+    justify-content: space-between;
+    gap: 20px;
 }
 .curriculum-title{
     text-align: center;
@@ -141,7 +146,8 @@
     max-width: 1050px;
     margin:0 auto;
     display:grid;
-    grid-template-columns: repeat(3,1fr);  
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
 }
 #s-1{
     grid-row:span 2;
@@ -150,6 +156,18 @@
     border: 1px solid white;
     border-radius: 16px;
     background-color: #FFFFFF;
+}
+.stories-container {
+    margin: 0 auto;
+    max-height: 200px auto 200px;
+    padding: 20px;
+  }
+
+.story-img {
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0; 
 }
 .story-btn{
     height: 40px;
@@ -186,12 +204,24 @@
     padding: 0px 38px;
     margin-top: 10px;
 }
+.s-btn {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 12px 25px; 
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    margin-top:30px;
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 /*footer-style*/
 .footer-container{
     background-color:#01ACFD ;
     height: 520px;
-    width: 1450px;
-    max-width: 1160px;
     margin:0 auto;
 }
 .footer-description{
@@ -199,7 +229,7 @@
     max-width:1000px ;
     justify-content: space-evenly;
     gap: 30px;
-    color: aliceblue;
+    color:#FFFFFF
 }
 .abt-list{
     list-style: none;
@@ -207,9 +237,15 @@
 .first{
     align-items: center;
 }
-.curriculums{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-   
+.foot-sec-2 h4, .foot-sec-3 h4 {
+    font-size: 1.2rem; 
+    font-weight: 800; 
+  }
+  .foot-abt{
+    list-style: none;
+    margin-left: 40px;
+}
+.foot-abt-k{
+    list-style: none;
+    margin-left: 25px;
 }
